@@ -1,34 +1,35 @@
-# AI Tool Recommender
+# AI Tool Recommender System
 
-A frontend project that helps users discover and compare AI tools through a quiz-driven recommendation interface.
-
-## Project Structure
-
-- `frontend/index.html` — main landing page and app shell
-- `frontend/css/` — styling for layout, components, and theme
-- `frontend/js/` — core JavaScript logic for routing, data, matching, and state
-- `frontend/public/tools.json` — AI tool data used by the recommender
+A smart web-based recommendation system that helps users discover and compare AI tools based on their needs through a quiz-driven interface.
 
 ## Features
 
-- Quiz-style interface for collecting user preferences
-- Tool browsing and filtering
-- Dynamic result matching based on user input
-- Responsive UI components for cards, modals, and navigation
+- Recommend AI tools based on user requirements
+- User-friendly quiz interface
+- Clean frontend design
+- Organized AI tools database
+- Fast and responsive UI
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- JSON
+
+## Project Structure
+
+- frontend/index.html
+- frontend/css/
+- frontend/js/
+- frontend/public/tools.json
 
 ## How to Run
 
-1. Open `frontend/index.html` in a web browser.
-2. Or use a local static server:
-   - Python 3: `python -m http.server 8000`
-   - Then visit `http://localhost:8000/frontend`
+1. Download or clone this repository
+2. Open `frontend/index.html`
+3. Start using the project
 
-## Development
+## Author
 
-- Update tool data in `frontend/public/tools.json`
-- Modify UI components in `frontend/css/components/`
-- Add or update pages in `frontend/js/components/`
-
-## Notes
-
-This repository contains only frontend assets. No backend server is required for the current version.
+Vedant Makwana
