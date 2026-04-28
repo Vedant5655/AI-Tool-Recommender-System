@@ -1,0 +1,51 @@
+/* Buttons (PRD 10.12) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+/* Primary is the Chromatic Glass */
+.btn-primary {
+  background: rgba(7, 7, 16, 0.9); /* Inner layer so gradient border is visible behind */
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(56, 189, 248, 0.4);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-text {
+  background: transparent;
+  padding: 8px 16px;
+  color: var(--color-accent-cyan);
+}
+.btn-text:hover {
+  text-decoration: underline;
+}
+
+/* Mobile full width CTA */
+@media (max-width: 640px) {
+  .hero-content .btn {
+    width: 100%;
+  }
+}

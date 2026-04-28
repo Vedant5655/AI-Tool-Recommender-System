@@ -1,0 +1,2698 @@
+[
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "tagline": "Your AI pair programmer",
+    "description": "GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.",
+    "category": "Code & Dev",
+    "logo_emoji": "\ud83d\udcbb",
+    "website_url": "https://github.com/features/copilot",
+    "pricing": "Paid",
+    "starting_price": "$10/mo",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Developer",
+      "Student"
+    ],
+    "use_cases": [
+      "coding",
+      "debugging",
+      "automation"
+    ],
+    "output_types": [
+      "code"
+    ],
+    "tags": [
+      "programming",
+      "extension",
+      "ai assistant"
+    ],
+    "match_weight": {
+      "developer": 1.0,
+      "designer": 0.1,
+      "founder": 0.5
+    },
+    "pros": [
+      "Integrates seamlessly with VS Code",
+      "Understands context from comments",
+      "Speeds up boilerplate coding"
+    ],
+    "cons": [
+      "Paid only",
+      "Can sometimes suggest inaccurate code"
+    ]
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "tagline": "Create stunning AI art",
+    "description": "An independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species through image generation.",
+    "category": "Image & Design",
+    "logo_emoji": "\ud83c\udfa8",
+    "website_url": "https://midjourney.com",
+    "pricing": "Paid",
+    "starting_price": "$10/mo",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer",
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "design",
+      "marketing",
+      "content creation"
+    ],
+    "output_types": [
+      "image"
+    ],
+    "tags": [
+      "art",
+      "design",
+      "creative",
+      "discord"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "marketer": 0.8,
+      "developer": 0.2
+    },
+    "pros": [
+      "Highest quality artistic generations",
+      "Huge community text-prompting library",
+      "Constant stylistic updates"
+    ],
+    "cons": [
+      "Requires Discord to use",
+      "No intuitive GUI"
+    ]
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "tagline": "The intelligent chat assistant",
+    "description": "The industry standard LLM by OpenAI capable of drafting emails, writing essays, writing code, and answering complex questions.",
+    "category": "Writing & Content",
+    "logo_emoji": "\u26a1",
+    "website_url": "https://chat.openai.com",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "All",
+    "best_for_roles": [
+      "Writer",
+      "Developer",
+      "Marketer",
+      "Founder",
+      "Designer"
+    ],
+    "use_cases": [
+      "writing",
+      "research",
+      "coding",
+      "automation"
+    ],
+    "output_types": [
+      "text",
+      "code"
+    ],
+    "tags": [
+      "chatbot",
+      "writing",
+      "llm"
+    ],
+    "match_weight": {
+      "writer": 1.0,
+      "founder": 0.9,
+      "marketer": 0.9,
+      "developer": 0.8
+    },
+    "pros": [
+      "Incredibly versatile",
+      "Free tier is highly capable",
+      "Excellent coding and writing generation"
+    ],
+    "cons": [
+      "Training data has a cutoff point",
+      "Can hallucinate facts"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "tagline": "The AI-first Code Editor",
+    "description": "Cursor is a fork of VS Code built specifically for pairing with AI. It understands your entire codebase out of the box.",
+    "category": "Code & Dev",
+    "logo_emoji": "\u2328\ufe0f",
+    "website_url": "https://cursor.sh",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Developer",
+      "Founder"
+    ],
+    "use_cases": [
+      "coding",
+      "debugging",
+      "automation"
+    ],
+    "output_types": [
+      "code"
+    ],
+    "tags": [
+      "editor",
+      "ide",
+      "programming"
+    ],
+    "match_weight": {
+      "developer": 1.0,
+      "founder": 0.7
+    },
+    "pros": [
+      "Codebase-wide understanding",
+      "Familiar UI if you know VS Code",
+      "Excellent chat and command-K features"
+    ],
+    "cons": [
+      "Requires migrating from your current IDE"
+    ]
+  },
+  {
+    "id": "canva-ai",
+    "name": "Canva Magic Studio",
+    "tagline": "AI design tools for everyone",
+    "description": "All the power of Canva combined with generative AI. Create presentations, write copy, and generate imagery entirely within the Canva interface.",
+    "category": "Image & Design",
+    "logo_emoji": "\ud83d\uddbc\ufe0f",
+    "website_url": "https://canva.com",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Marketer",
+      "Designer",
+      "Founder",
+      "Writer"
+    ],
+    "use_cases": [
+      "design",
+      "marketing",
+      "content creation"
+    ],
+    "output_types": [
+      "image",
+      "text",
+      "video"
+    ],
+    "tags": [
+      "design",
+      "marketing",
+      "social media",
+      "all-in-one"
+    ],
+    "match_weight": {
+      "marketer": 1.0,
+      "founder": 0.9,
+      "designer": 0.6
+    },
+    "pros": [
+      "Extremely easy to use",
+      "Generates full layouts not just images",
+      "Magic rewrite features included"
+    ],
+    "cons": [
+      "Generations aren't as custom as Midjourney"
+    ]
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "tagline": "AI Copilot for Enterprise Marketing",
+    "description": "Jasper helps enterprise teams create high-quality, brand-consistent content 10X faster, with built-in SEO and brand voice tools.",
+    "category": "Writing & Content",
+    "logo_emoji": "\u270d\ufe0f",
+    "website_url": "https://jasper.ai",
+    "pricing": "Paid",
+    "starting_price": "$39/mo",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Marketer",
+      "Writer",
+      "Founder"
+    ],
+    "use_cases": [
+      "writing",
+      "marketing",
+      "seo"
+    ],
+    "output_types": [
+      "text",
+      "image"
+    ],
+    "tags": [
+      "copywriting",
+      "marketing",
+      "enterprise"
+    ],
+    "match_weight": {
+      "marketer": 1.0,
+      "writer": 0.9,
+      "founder": 0.7
+    },
+    "pros": [
+      "Easily trained on your brand voice",
+      "Template library is massive",
+      "Great for marketing campaigns"
+    ],
+    "cons": [
+      "Expensive compared to ChatGPT",
+      "Overkill for casual users"
+    ]
+  },
+  {
+    "id": "runway",
+    "name": "Runway Gen-2",
+    "tagline": "Next generation AI video creation",
+    "description": "Runway offers a suite of AI magic tools to generate and edit video. Turn text to video, or image to video, right in your browser.",
+    "category": "Video & Audio",
+    "logo_emoji": "\ud83c\udfac",
+    "website_url": "https://runwayml.com",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer",
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "design",
+      "marketing"
+    ],
+    "output_types": [
+      "video"
+    ],
+    "tags": [
+      "video",
+      "generative ai",
+      "synthesis"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "marketer": 0.8
+    },
+    "pros": [
+      "Incredible text-to-video capabilities",
+      "Browser-based video editing suite",
+      "Constantly improving models"
+    ],
+    "cons": [
+      "High resolution generation gets expensive quickly",
+      "Video consistency can vary"
+    ]
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier Central",
+    "tagline": "AI automation that works",
+    "description": "Combine the thousands of integrations Zapier supports with an AI copilot to build robust data pipelines and automated workflows.",
+    "category": "Productivity & Automation",
+    "logo_emoji": "\ud83e\udd16",
+    "website_url": "https://zapier.com",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Founder",
+      "Marketer",
+      "Developer"
+    ],
+    "use_cases": [
+      "automation",
+      "marketing",
+      "coding"
+    ],
+    "output_types": [
+      "data",
+      "text"
+    ],
+    "tags": [
+      "automation",
+      "integrations",
+      "workflows"
+    ],
+    "match_weight": {
+      "founder": 1.0,
+      "marketer": 0.9,
+      "developer": 0.8
+    },
+    "pros": [
+      "Connects to 5000+ business apps",
+      "AI helps write complex logic steps",
+      "Massive time saver"
+    ],
+    "cons": [
+      "Zapier tier limits are strict",
+      "Can be confusing to set up advanced logic"
+    ]
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "tagline": "Where knowledge begins",
+    "description": "An AI-powered search engine that answers questions with cited sources in real-time, pulling directly from the latest web articles.",
+    "category": "Research & Knowledge",
+    "logo_emoji": "\ud83d\udd0d",
+    "website_url": "https://perplexity.ai",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "All",
+    "best_for_roles": [
+      "Writer",
+      "Founder",
+      "Developer",
+      "Marketer",
+      "Designer"
+    ],
+    "use_cases": [
+      "research",
+      "writing"
+    ],
+    "output_types": [
+      "text",
+      "data"
+    ],
+    "tags": [
+      "search engine",
+      "research",
+      "citations"
+    ],
+    "match_weight": {
+      "writer": 1.0,
+      "founder": 0.9,
+      "developer": 0.7
+    },
+    "pros": [
+      "Cites its sources explicitly",
+      "Always has up-to-date information",
+      "Copilot feature refines your search"
+    ],
+    "cons": [
+      "Occasionally misinterprets nuanced source material"
+    ]
+  },
+  {
+    "id": "julius-ai",
+    "name": "Julius AI",
+    "tagline": "Your AI data analyst",
+    "description": "Upload a spreadsheet and immediately start chatting with your data. Julius creates visualisations, runs statistics, and models predictions.",
+    "category": "Data & Analytics",
+    "logo_emoji": "\ud83d\udcca",
+    "website_url": "https://julius.ai",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Founder",
+      "Marketer",
+      "Developer",
+      "Data Scientist"
+    ],
+    "use_cases": [
+      "research",
+      "automation"
+    ],
+    "output_types": [
+      "data",
+      "image"
+    ],
+    "tags": [
+      "data analysis",
+      "visualisation",
+      "csv"
+    ],
+    "match_weight": {
+      "founder": 1.0,
+      "marketer": 0.8,
+      "developer": 0.9
+    },
+    "pros": [
+      "Generates Python code under the hood",
+      "Great chart generation",
+      "Requires zero coding knowledge to use"
+    ],
+    "cons": [
+      "Struggles with messy/unstructured data",
+      "Large dataset uploads are slow"
+    ]
+  },
+  {
+    "id": "claude",
+    "name": "Claude 3.5 Sonnet",
+    "tagline": "Next-generation AI assistant",
+    "description": "Anthropic's highly capable LLM with a focus on safety, large context windows, and nuanced reasoning.",
+    "category": "Writing & Content",
+    "logo_emoji": "\ud83e\udde0",
+    "website_url": "https://claude.ai",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "All",
+    "best_for_roles": [
+      "Writer",
+      "Developer",
+      "Founder"
+    ],
+    "use_cases": [
+      "writing",
+      "research",
+      "coding"
+    ],
+    "output_types": [
+      "text",
+      "code"
+    ],
+    "tags": [
+      "llm",
+      "writing",
+      "analysis"
+    ],
+    "match_weight": {
+      "writer": 1.0,
+      "developer": 1.0,
+      "founder": 0.8
+    },
+    "pros": [
+      "Massive context window",
+      "Very natural writing style",
+      "Excellent at coding tasks"
+    ],
+    "cons": [
+      "Cannot generate images",
+      "Stricter safety filters"
+    ]
+  },
+  {
+    "id": "gemini",
+    "name": "Google Gemini",
+    "tagline": "Google's most capable AI model",
+    "description": "Multimodal AI by Google. Capable of understanding text, images, audio, and video natively.",
+    "category": "Writing & Content",
+    "logo_emoji": "\u2728",
+    "website_url": "https://gemini.google.com",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "All",
+    "best_for_roles": [
+      "Marketer",
+      "Developer",
+      "Student"
+    ],
+    "use_cases": [
+      "research",
+      "writing",
+      "coding"
+    ],
+    "output_types": [
+      "text",
+      "code",
+      "image"
+    ],
+    "tags": [
+      "llm",
+      "multimodal",
+      "google"
+    ],
+    "match_weight": {
+      "developer": 0.9,
+      "writer": 0.8,
+      "marketer": 0.8
+    },
+    "pros": [
+      "Native multimodal understanding",
+      "Integrates with Google Workspace",
+      "Real-time info via Google Search"
+    ],
+    "cons": [
+      "Can sometimes refuse safe prompts",
+      "Quality fluctuates by version"
+    ]
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "tagline": "Generative voice AI",
+    "description": "The most realistic AI text-to-speech and voice cloning software. Perfect for creators, developers, and publishers.",
+    "category": "Video & Audio",
+    "logo_emoji": "\ud83d\udde3\ufe0f",
+    "website_url": "https://elevenlabs.io",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Marketer",
+      "Founder",
+      "Designer"
+    ],
+    "use_cases": [
+      "marketing",
+      "content creation"
+    ],
+    "output_types": [
+      "audio"
+    ],
+    "tags": [
+      "voice",
+      "audio",
+      "tts",
+      "cloning"
+    ],
+    "match_weight": {
+      "marketer": 1.0,
+      "designer": 0.7,
+      "founder": 0.6
+    },
+    "pros": [
+      "Extremely realistic voices",
+      "Incredible emotion control",
+      "Voice cloning is highly accurate"
+    ],
+    "cons": [
+      "Expensive for long-form content",
+      "Can require tweaking to get perfect intonation"
+    ]
+  },
+  {
+    "id": "suno",
+    "name": "Suno AI",
+    "tagline": "Make a song about anything",
+    "description": "Generate full, radio-quality songs from a simple text prompt. It creates lyrics, vocals, and instrumentation.",
+    "category": "Video & Audio",
+    "logo_emoji": "\ud83c\udfb5",
+    "website_url": "https://suno.com",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Designer",
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "content creation",
+      "design"
+    ],
+    "output_types": [
+      "audio"
+    ],
+    "tags": [
+      "music",
+      "audio",
+      "song",
+      "generative"
+    ],
+    "match_weight": {
+      "marketer": 0.8,
+      "designer": 0.7,
+      "founder": 0.5
+    },
+    "pros": [
+      "Incredibly fast generation",
+      "Creates full vocals and lyrics",
+      "Impressive genre versatility"
+    ],
+    "cons": [
+      "Cannot edit specific parts of the song easily",
+      "Audio quality can occasionally artifact"
+    ]
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "tagline": "Your connected AI assistant",
+    "description": "Access the limitless power of AI, right inside Notion. Work faster. Write better. Think bigger.",
+    "category": "Productivity & Automation",
+    "logo_emoji": "\ud83d\udcd3",
+    "website_url": "https://notion.so/product/ai",
+    "pricing": "Paid",
+    "starting_price": "$8/mo",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Founder",
+      "Writer",
+      "Marketer",
+      "Developer",
+      "Designer"
+    ],
+    "use_cases": [
+      "writing",
+      "research",
+      "automation"
+    ],
+    "output_types": [
+      "text",
+      "data"
+    ],
+    "tags": [
+      "productivity",
+      "writing",
+      "workspace"
+    ],
+    "match_weight": {
+      "founder": 1.0,
+      "writer": 1.0,
+      "marketer": 0.9
+    },
+    "pros": [
+      "Integrated directly into your workspace",
+      "Great for summarizing meeting notes",
+      "Easily edits existing text"
+    ],
+    "cons": [
+      "Requires using Notion as your primary workspace",
+      "Add-on cost on top of Notion plan"
+    ]
+  },
+  {
+    "id": "phind",
+    "name": "Phind",
+    "tagline": "AI search engine for developers",
+    "description": "An intelligent search engine tailored exclusively for programmers. It answers complex coding questions by citing documentation.",
+    "category": "Code & Dev",
+    "logo_emoji": "\ud83d\udd0e",
+    "website_url": "https://phind.com",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Developer"
+    ],
+    "use_cases": [
+      "coding",
+      "debugging",
+      "research"
+    ],
+    "output_types": [
+      "code",
+      "text"
+    ],
+    "tags": [
+      "search",
+      "programming",
+      "developer"
+    ],
+    "match_weight": {
+      "developer": 1.0,
+      "founder": 0.5
+    },
+    "pros": [
+      "Deep context for programming",
+      "Reads current documentation",
+      "Tethers to VS Code easily"
+    ],
+    "cons": [
+      "Overkill for non-developers",
+      "Requires coding knowledge to evaluate answers"
+    ]
+  },
+  {
+    "id": "leonardo",
+    "name": "Leonardo AI",
+    "tagline": "Create stunning game assets",
+    "description": "A powerful image generation platform with immense control, tailored models, and an intuitive UI, popular for game design and concept art.",
+    "category": "Image & Design",
+    "logo_emoji": "\ud83e\udd81",
+    "website_url": "https://leonardo.ai",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer",
+      "Developer"
+    ],
+    "use_cases": [
+      "design",
+      "content creation"
+    ],
+    "output_types": [
+      "image"
+    ],
+    "tags": [
+      "art",
+      "gaming",
+      "design",
+      "ui"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "developer": 0.7
+    },
+    "pros": [
+      "Excellent user interface",
+      "Hundreds of custom fine-tuned models",
+      "Daily free tokens"
+    ],
+    "cons": [
+      "Can be overwhelming with settings",
+      "Quality varies drastically by model chosen"
+    ]
+  },
+  {
+    "id": "v0",
+    "name": "v0 by Vercel",
+    "tagline": "Generate UI with text",
+    "description": "A generative UI system built by Vercel. Describe the interface you want, and it produces React code styled with Tailwind CSS.",
+    "category": "Code & Dev",
+    "logo_emoji": "\ud83c\udfd7\ufe0f",
+    "website_url": "https://v0.dev",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Developer",
+      "Designer",
+      "Founder"
+    ],
+    "use_cases": [
+      "coding",
+      "design"
+    ],
+    "output_types": [
+      "code",
+      "image"
+    ],
+    "tags": [
+      "ui",
+      "react",
+      "tailwind",
+      "frontend"
+    ],
+    "match_weight": {
+      "developer": 1.0,
+      "designer": 0.9,
+      "founder": 0.8
+    },
+    "pros": [
+      "Generates working React components instantly",
+      "Huge library of community generations",
+      "Integrated with shadcn/ui"
+    ],
+    "cons": [
+      "Results require React/Tailwind knowledge to implement natively",
+      "Complex logic still needs to be written by hand"
+    ]
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "tagline": "AI Video Generator",
+    "description": "Create professional videos with AI avatars and voiceovers in over 130 languages. No cameras, microphones or studios required.",
+    "category": "Video & Audio",
+    "logo_emoji": "\ud83d\udcfa",
+    "website_url": "https://synthesia.io",
+    "pricing": "Paid",
+    "starting_price": "$22/mo",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "marketing",
+      "content creation"
+    ],
+    "output_types": [
+      "video",
+      "audio"
+    ],
+    "tags": [
+      "video",
+      "avatars",
+      "presentations"
+    ],
+    "match_weight": {
+      "marketer": 1.0,
+      "founder": 0.8
+    },
+    "pros": [
+      "Extremely easy way to make training videos",
+      "High quality, lifelike avatars",
+      "Supports massive language translation"
+    ],
+    "cons": [
+      "Avatars can still look slightly uncanny",
+      "Strict pricing based on video minutes"
+    ]
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma AI",
+    "tagline": "A new medium for presenting ideas",
+    "description": "Create beautiful, engaging presentations, documents, and webpages in seconds using artificial intelligence.",
+    "category": "Image & Design",
+    "logo_emoji": "\u2728",
+    "website_url": "https://gamma.app",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Founder",
+      "Marketer",
+      "Designer"
+    ],
+    "use_cases": [
+      "design",
+      "marketing",
+      "research"
+    ],
+    "output_types": [
+      "image",
+      "text",
+      "data"
+    ],
+    "tags": [
+      "presentations",
+      "pitch decks",
+      "slides"
+    ],
+    "match_weight": {
+      "founder": 1.0,
+      "marketer": 0.9,
+      "designer": 0.8
+    },
+    "pros": [
+      "Instantly creates full pitch decks",
+      "Highly customizable themes",
+      "Fluid layout that looks great on any device"
+    ],
+    "cons": [
+      "Export to generic PowerPoint can lose formatting",
+      "AI copy is often generic"
+    ]
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "tagline": "The AI community building the future",
+    "description": "The premier platform for machine learning. Host, collaborate, and discover thousands of open-source models, datasets, and spaces.",
+    "category": "Code & Dev",
+    "logo_emoji": "\ud83e\udd17",
+    "website_url": "https://huggingface.co",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Developer"
+    ],
+    "use_cases": [
+      "coding",
+      "research",
+      "data analysis"
+    ],
+    "output_types": [
+      "code",
+      "data",
+      "image",
+      "text",
+      "audio"
+    ],
+    "tags": [
+      "open-source",
+      "machine-learning",
+      "community"
+    ],
+    "match_weight": {
+      "developer": 1.0,
+      "founder": 0.4
+    },
+    "pros": [
+      "The largest hub for open-source AI",
+      "Free inferences API for testing",
+      "Incredible spaces for community apps"
+    ],
+    "cons": [
+      "High technical barrier to entry",
+      "Overwhelming amount of information"
+    ]
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "tagline": "The GTM AI Platform",
+    "description": "Built for sales and marketing teams. Copy.ai helps you scale your email outreach, blog posts, and ad copy automatically.",
+    "category": "Writing & Content",
+    "logo_emoji": "\ud83d\udcdd",
+    "website_url": "https://copy.ai",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Marketer",
+      "Founder",
+      "Writer"
+    ],
+    "use_cases": [
+      "marketing",
+      "writing"
+    ],
+    "output_types": [
+      "text"
+    ],
+    "tags": [
+      "copywriting",
+      "sales",
+      "templates"
+    ],
+    "match_weight": {
+      "marketer": 1.0,
+      "founder": 0.9,
+      "writer": 0.8
+    },
+    "pros": [
+      "Workflows feature automates repetitive campaigns",
+      "Huge library of specific copy templates",
+      "Brand voice matching"
+    ],
+    "cons": [
+      "Output quality depends on LLM APIs under the hood",
+      "Pricing jumps steeply for teams"
+    ]
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "tagline": "There's a new way to make video and audio",
+    "description": "Edit video and podcasts by simply editing the text transcript. Features AI voice cloning, eye-contact correction, and background noise removal.",
+    "category": "Video & Audio",
+    "logo_emoji": "\ud83c\udf99\ufe0f",
+    "website_url": "https://descript.com",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Marketer",
+      "Designer",
+      "Founder"
+    ],
+    "use_cases": [
+      "marketing",
+      "content creation"
+    ],
+    "output_types": [
+      "video",
+      "audio",
+      "text"
+    ],
+    "tags": [
+      "editing",
+      "podcast",
+      "transcription"
+    ],
+    "match_weight": {
+      "marketer": 1.0,
+      "designer": 0.9,
+      "founder": 0.8
+    },
+    "pros": [
+      "Text-based editing is a game changer",
+      "Studio Sound makes any mic sound professional",
+      "Overdub fixes mistakes without re-recording"
+    ],
+    "cons": [
+      "Can be buggy with extremely large projects",
+      "Cloud sync occasionally slow"
+    ]
+  },
+  {
+    "id": "krea",
+    "name": "Krea AI",
+    "tagline": "Real-time AI creativity",
+    "description": "Use real-time generation to draw, modify, and enhance images instantly. Perfect for rapid prototyping and concept art.",
+    "category": "Image & Design",
+    "logo_emoji": "\u2728",
+    "website_url": "https://krea.ai",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer",
+      "Marketer"
+    ],
+    "use_cases": [
+      "design",
+      "content creation"
+    ],
+    "output_types": [
+      "image",
+      "video"
+    ],
+    "tags": [
+      "real-time",
+      "art",
+      "upscale"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "marketer": 0.6
+    },
+    "pros": [
+      "Generates as fast as you can draw",
+      "Incredible upscaler feature",
+      "Webcam integration for real-time video"
+    ],
+    "cons": [
+      "Requires strong internet connection",
+      "Very unstructured workflow"
+    ]
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "tagline": "The first autonomous AI software engineer",
+    "description": "An autonomous agent that can plan and execute complex engineering tasks requiring thousands of decisions. It can learn new technologies on the fly.",
+    "category": "Code & Dev",
+    "logo_emoji": "\ud83e\udd16",
+    "website_url": "https://cognition-labs.com",
+    "pricing": "Paid",
+    "starting_price": "Custom",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Developer",
+      "Founder"
+    ],
+    "use_cases": [
+      "coding",
+      "debugging",
+      "automation"
+    ],
+    "output_types": [
+      "code"
+    ],
+    "tags": [
+      "agent",
+      "autonomous",
+      "software engineering"
+    ],
+    "match_weight": {
+      "developer": 1.0,
+      "founder": 0.9
+    },
+    "pros": [
+      "Can complete entire end-to-end issues",
+      "Self-corrects and reads API docs",
+      "Runs its own sandboxed environment"
+    ],
+    "cons": [
+      "Extremely expensive and waitlisted",
+      "Takes a long time to run certain tasks"
+    ]
+  },
+  {
+    "id": "llama3",
+    "name": "Meta Llama 3",
+    "tagline": "Open-source foundational model",
+    "category": "Writing & Content",
+    "description": "Meta's powerful open-source large language model designed for developers to build state-of-the-art AI applications locally.",
+    "logo_emoji": "\ud83e\udd99",
+    "website_url": "https://llama.meta.com/",
+    "pricing": "Free",
+    "starting_price": "$0",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Developer",
+      "Researcher"
+    ],
+    "use_cases": [
+      "coding",
+      "research"
+    ],
+    "output_types": [
+      "text",
+      "code"
+    ],
+    "tags": [
+      "open-source",
+      "llm",
+      "meta"
+    ],
+    "match_weight": {
+      "developer": 1.0,
+      "founder": 0.5
+    },
+    "pros": [
+      "Completely free to use locally",
+      "Highly performant for its size",
+      "Huge community support"
+    ],
+    "cons": [
+      "Requires technical knowledge to deploy",
+      "No official web GUI"
+    ]
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "tagline": "Frontier AI in your hands",
+    "category": "Writing & Content",
+    "description": "European AI company building highly efficient, open-weight language models that rival closed proprietary models.",
+    "logo_emoji": "\ud83c\udf2a\ufe0f",
+    "website_url": "https://mistral.ai/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Developer"
+    ],
+    "use_cases": [
+      "coding",
+      "writing"
+    ],
+    "output_types": [
+      "text",
+      "code"
+    ],
+    "tags": [
+      "open-weights",
+      "llm",
+      "efficient"
+    ],
+    "match_weight": {
+      "developer": 1.0
+    },
+    "pros": [
+      "Unmatched performance-to-size ratio",
+      "Open weights available",
+      "Fast inference"
+    ],
+    "cons": [
+      "Developer focused UI",
+      "Ecosystem not as large as OpenAI"
+    ]
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "tagline": "The rebellious AI",
+    "category": "Writing & Content",
+    "description": "xAI's native model built directly into X (Twitter). Features real-time access to the platform's data and a humorous personality.",
+    "logo_emoji": "\u2716\ufe0f",
+    "website_url": "https://x.ai/",
+    "pricing": "Paid",
+    "starting_price": "$16/mo",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "research",
+      "writing",
+      "marketing"
+    ],
+    "output_types": [
+      "text"
+    ],
+    "tags": [
+      "social-media",
+      "real-time",
+      "twitter"
+    ],
+    "match_weight": {
+      "marketer": 0.9,
+      "founder": 0.7
+    },
+    "pros": [
+      "Real-time access to X/Twitter data",
+      "Unfiltered and humorous persona",
+      "Built into existing X Premium"
+    ],
+    "cons": [
+      "Locked behind X Premium subscription",
+      "Can be overly sarcastic"
+    ]
+  },
+  {
+    "id": "character-ai",
+    "name": "Character.ai",
+    "tagline": "Chat with anyone",
+    "category": "Writing & Content",
+    "description": "Create and chat with realistic AI characters. Practice a language, prep for an interview, or talk to historical figures.",
+    "logo_emoji": "\ud83c\udfad",
+    "website_url": "https://character.ai/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Writer",
+      "Student"
+    ],
+    "use_cases": [
+      "writing",
+      "research"
+    ],
+    "output_types": [
+      "text"
+    ],
+    "tags": [
+      "chat",
+      "personas",
+      "entertainment"
+    ],
+    "match_weight": {
+      "writer": 0.8
+    },
+    "pros": [
+      "Millions of user-created bots",
+      "Extremely convincing conversational flow",
+      "Free app available"
+    ],
+    "cons": [
+      "Strict conversational filters",
+      "Bots forget deep context over long chats"
+    ]
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion 3",
+    "tagline": "Open-source image generation",
+    "category": "Image & Design",
+    "description": "Stability AI's flagship text-to-image model. Run it locally entirely for free with zero censorship, or via cloud API.",
+    "logo_emoji": "\ud83c\udf87",
+    "website_url": "https://stability.ai/",
+    "pricing": "Free",
+    "starting_price": "$0",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Designer",
+      "Developer"
+    ],
+    "use_cases": [
+      "design",
+      "content creation"
+    ],
+    "output_types": [
+      "image"
+    ],
+    "tags": [
+      "open-source",
+      "art",
+      "local"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "developer": 0.9
+    },
+    "pros": [
+      "100% free if run locally",
+      "Massive community ecosystem (Civitai)",
+      "Unmatched granular control"
+    ],
+    "cons": [
+      "Requires a powerful GPU to run well",
+      "Setup is technically challenging"
+    ]
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "tagline": "OpenAI's native image generator",
+    "category": "Image & Design",
+    "description": "Generates incredibly accurate images based directly on precise text phrasing. Integrated flawlessly with ChatGPT.",
+    "logo_emoji": "\ud83d\uddbc\ufe0f",
+    "website_url": "https://openai.com/dall-e-3",
+    "pricing": "Paid",
+    "starting_price": "$20/mo",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Marketer",
+      "Founder",
+      "Writer"
+    ],
+    "use_cases": [
+      "design",
+      "marketing"
+    ],
+    "output_types": [
+      "image"
+    ],
+    "tags": [
+      "art",
+      "openai",
+      "chatgpt"
+    ],
+    "match_weight": {
+      "marketer": 0.9,
+      "writer": 0.7,
+      "founder": 0.8
+    },
+    "pros": [
+      "Understands complex prompts better than any other AI",
+      "Generates readable text in images",
+      "Built straight into ChatGPT"
+    ],
+    "cons": [
+      "Cannot generate photorealism as well as Midjourney",
+      "Images can look slightly 'plastic'"
+    ]
+  },
+  {
+    "id": "pika",
+    "name": "Pika Labs",
+    "tagline": "Idea to video in seconds",
+    "category": "Video & Audio",
+    "description": "A powerful text-to-video AI platform that allows for precise control over motion, camera angles, and character consistency.",
+    "logo_emoji": "\ud83d\udc07",
+    "website_url": "https://pika.art/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer",
+      "Marketer"
+    ],
+    "use_cases": [
+      "marketing",
+      "design"
+    ],
+    "output_types": [
+      "video"
+    ],
+    "tags": [
+      "video",
+      "animation",
+      "motion"
+    ],
+    "match_weight": {
+      "designer": 0.9,
+      "marketer": 0.8
+    },
+    "pros": [
+      "Excellent Discord integration",
+      "Great motion brush controls",
+      "Can add lip-sync audio"
+    ],
+    "cons": [
+      "Generations are very short (3 seconds)",
+      "Requires multiple tries to get perfect"
+    ]
+  },
+  {
+    "id": "magnific",
+    "name": "Magnific AI",
+    "tagline": "The ultimate image upscaler",
+    "category": "Image & Design",
+    "description": "An AI upscaler that actively hallucinates incredible new details. Perfect for taking low-res Midjourney art to ultra-HD game assets.",
+    "logo_emoji": "\ud83d\udd0d",
+    "website_url": "https://magnific.ai/",
+    "pricing": "Paid",
+    "starting_price": "$39/mo",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer"
+    ],
+    "use_cases": [
+      "design",
+      "content creation"
+    ],
+    "output_types": [
+      "image"
+    ],
+    "tags": [
+      "upscale",
+      "enhancement",
+      "resolution"
+    ],
+    "match_weight": {
+      "designer": 1.0
+    },
+    "pros": [
+      "Highest quality upscaling available",
+      "Adds logical details that weren't there",
+      "Incredible texture generation"
+    ],
+    "cons": [
+      "Very expensive pricing model",
+      "Can radically change the original image if pushed too high"
+    ]
+  },
+  {
+    "id": "topaz",
+    "name": "Topaz Video AI",
+    "tagline": "Professional video enhancement",
+    "category": "Video & Audio",
+    "description": "Desktop software that uses local AI models to upscale, de-noise, and interpolate frame rates for professional video workflows.",
+    "logo_emoji": "\ud83c\udfa5",
+    "website_url": "https://www.topazlabs.com/topaz-video-ai",
+    "pricing": "Paid",
+    "starting_price": "$299",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Designer",
+      "Marketer"
+    ],
+    "use_cases": [
+      "marketing",
+      "design"
+    ],
+    "output_types": [
+      "video"
+    ],
+    "tags": [
+      "upscale",
+      "video",
+      "local"
+    ],
+    "match_weight": {
+      "designer": 0.9,
+      "marketer": 0.5
+    },
+    "pros": [
+      "One-time purchase (no subscription)",
+      "Runs locally with absolute privacy",
+      "Unmatched de-interlacing"
+    ],
+    "cons": [
+      "Very steep upfront cost",
+      "Requires a massively powerful PC"
+    ]
+  },
+  {
+    "id": "murf",
+    "name": "Murf AI",
+    "tagline": "AI Voice Generator for professionals",
+    "category": "Video & Audio",
+    "description": "Versatile text-to-speech studio perfect for e-learning, corporate presentations, and Youtube videos. Features a robust editing timeline.",
+    "logo_emoji": "\ud83c\udf99\ufe0f",
+    "website_url": "https://murf.ai/",
+    "pricing": "Paid",
+    "starting_price": "$19/mo",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "marketing",
+      "content creation"
+    ],
+    "output_types": [
+      "audio"
+    ],
+    "tags": [
+      "tts",
+      "voice",
+      "studio"
+    ],
+    "match_weight": {
+      "marketer": 1.0,
+      "founder": 0.8
+    },
+    "pros": [
+      "Great built-in studio interface",
+      "Can sync audio to video immediately",
+      "Hundreds of professional voices"
+    ],
+    "cons": [
+      "Not quite as realistic as ElevenLabs",
+      "Free tier is restrictive"
+    ]
+  },
+  {
+    "id": "luma",
+    "name": "Luma Dream Machine",
+    "tagline": "High quality AI video generation",
+    "category": "Video & Audio",
+    "description": "Next-generation video model that produces incredibly fast, high-quality, physics-accurate video from text or images.",
+    "logo_emoji": "\u2601\ufe0f",
+    "website_url": "https://lumalabs.ai/dream-machine",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Designer",
+      "Marketer"
+    ],
+    "use_cases": [
+      "design",
+      "marketing"
+    ],
+    "output_types": [
+      "video"
+    ],
+    "tags": [
+      "video",
+      "generative ai",
+      "web"
+    ],
+    "match_weight": {
+      "designer": 0.9,
+      "marketer": 0.9
+    },
+    "pros": [
+      "Very generous free tier",
+      "Understand physical movement well",
+      "Extremely fast generation time"
+    ],
+    "cons": [
+      "Faces can warp in motion",
+      "No advanced camera controls yet"
+    ]
+  },
+  {
+    "id": "runway-gen3",
+    "name": "Runway Gen-3 Alpha",
+    "tagline": "The frontier of AI video",
+    "category": "Video & Audio",
+    "description": "Runway's latest foundational video model, offering staggering photorealism, temporal consistency, and highly dynamic camera movement.",
+    "logo_emoji": "\ud83c\udfac",
+    "website_url": "https://runwayml.com/",
+    "pricing": "Paid",
+    "starting_price": "$15/mo",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer",
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "design",
+      "marketing"
+    ],
+    "output_types": [
+      "video"
+    ],
+    "tags": [
+      "video",
+      "runway",
+      "photorealism"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "marketer": 0.9
+    },
+    "pros": [
+      "Industry-leading photorealism",
+      "Incredible temporal consistency",
+      "Excellent at human faces"
+    ],
+    "cons": [
+      "Locked behind a paid plan",
+      "Only supports text-to-video right now"
+    ]
+  },
+  {
+    "id": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "tagline": "Presentations that design themselves",
+    "category": "Image & Design",
+    "description": "An presentation maker that applies rules of great design automatically as you add content. AI writes the slides instantly.",
+    "logo_emoji": "\ud83d\udcca",
+    "website_url": "https://www.beautiful.ai/",
+    "pricing": "Paid",
+    "starting_price": "$12/mo",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Founder",
+      "Marketer"
+    ],
+    "use_cases": [
+      "design",
+      "marketing",
+      "research"
+    ],
+    "output_types": [
+      "image",
+      "text"
+    ],
+    "tags": [
+      "slides",
+      "pitch deck",
+      "presentations"
+    ],
+    "match_weight": {
+      "founder": 1.0,
+      "marketer": 0.9
+    },
+    "pros": [
+      "Impossible to make a bad looking slide",
+      "Designer bot generates full decks",
+      "Brand controls lock down fonts/colors"
+    ],
+    "cons": [
+      "Rigid layouts restrict custom creativity",
+      "No free plan available"
+    ]
+  },
+  {
+    "id": "tome",
+    "name": "Tome",
+    "tagline": "The AI storytelling format",
+    "category": "Image & Design",
+    "description": "Generate interactive storytelling narratives that look great on any screen. Ideal for sales pitches, portfolios, and product plans.",
+    "logo_emoji": "\ud83d\udcd6",
+    "website_url": "https://tome.app/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Founder",
+      "Marketer"
+    ],
+    "use_cases": [
+      "design",
+      "marketing",
+      "writing"
+    ],
+    "output_types": [
+      "image",
+      "text"
+    ],
+    "tags": [
+      "presentations",
+      "storytelling",
+      "decks"
+    ],
+    "match_weight": {
+      "founder": 0.9,
+      "marketer": 0.8
+    },
+    "pros": [
+      "Incredibly modern visual style",
+      "Native 3D models and web embeds",
+      "Generates text + DALL-E images instantly"
+    ],
+    "cons": [
+      "Export features are limited on lower tiers",
+      "Cannot easily port to PowerPoint"
+    ]
+  },
+  {
+    "id": "fireflies",
+    "name": "Fireflies.ai",
+    "tagline": "Automate your meeting notes",
+    "category": "Productivity & Automation",
+    "description": "An AI assistant that joins your Zoom, Google Meet, and Teams calls to transcribe, summarize, and analyze voice conversations.",
+    "logo_emoji": "\ud83d\udd25",
+    "website_url": "https://fireflies.ai/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Founder",
+      "Marketer",
+      "Developer"
+    ],
+    "use_cases": [
+      "automation",
+      "research"
+    ],
+    "output_types": [
+      "text",
+      "audio"
+    ],
+    "tags": [
+      "meetings",
+      "transcription",
+      "notes"
+    ],
+    "match_weight": {
+      "founder": 1.0,
+      "marketer": 0.8,
+      "developer": 0.6
+    },
+    "pros": [
+      "Integrates with all major meeting apps",
+      "Searchable transcripts are perfect for reference",
+      "Creates actionable task lists from calls"
+    ],
+    "cons": [
+      "Bot joining calls can annoy some guests",
+      "Accent recognition can sometimes struggle"
+    ]
+  },
+  {
+    "id": "otter",
+    "name": "Otter.ai",
+    "tagline": "Your meeting AI assistant",
+    "category": "Productivity & Automation",
+    "description": "Real-time speech to text transcription app that generates meeting minutes and highlights actionable items instantly.",
+    "logo_emoji": "\ud83e\udda6",
+    "website_url": "https://otter.ai/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Founder",
+      "Researcher"
+    ],
+    "use_cases": [
+      "automation",
+      "research",
+      "writing"
+    ],
+    "output_types": [
+      "text",
+      "audio"
+    ],
+    "tags": [
+      "meetings",
+      "transcripts",
+      "interviews"
+    ],
+    "match_weight": {
+      "founder": 0.9,
+      "writer": 0.8
+    },
+    "pros": [
+      "Great mobile app for live dictation",
+      "Highlights key summaries automatically",
+      "Generous free tier"
+    ],
+    "cons": [
+      "Lacks deeply customized action items",
+      "Audio playback can be clunky"
+    ]
+  },
+  {
+    "id": "fathom",
+    "name": "Fathom AI",
+    "tagline": "Free AI meeting assistant",
+    "category": "Productivity & Automation",
+    "description": "Record, transcribe, highlight, and summarize your video calls. It strictly focuses on being entirely free and highly accurate.",
+    "logo_emoji": "\u23fa\ufe0f",
+    "website_url": "https://fathom.video/",
+    "pricing": "Free",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Founder",
+      "Marketer"
+    ],
+    "use_cases": [
+      "automation",
+      "research"
+    ],
+    "output_types": [
+      "video",
+      "text"
+    ],
+    "tags": [
+      "video-calls",
+      "zoom",
+      "transcription"
+    ],
+    "match_weight": {
+      "founder": 0.9,
+      "marketer": 0.7
+    },
+    "pros": [
+      "Core features are entirely free",
+      "Syncs directly to HubSpot and Salesforce",
+      "No limits on recording length"
+    ],
+    "cons": [
+      "Primarily Zoom focused initially (though expanding)",
+      "Basic summary styles only"
+    ]
+  },
+  {
+    "id": "anyword",
+    "name": "Anyword",
+    "tagline": "AI copywriting for marketers",
+    "category": "Writing & Content",
+    "description": "Data-driven AI copywriter that uses predictive analytics to score the performance of generated ads, emails, and landing page text.",
+    "logo_emoji": "\ud83d\udcc8",
+    "website_url": "https://anyword.com/",
+    "pricing": "Paid",
+    "starting_price": "$39/mo",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Marketer"
+    ],
+    "use_cases": [
+      "marketing",
+      "writing"
+    ],
+    "output_types": [
+      "text",
+      "data"
+    ],
+    "tags": [
+      "copywriting",
+      "ads",
+      "analytics"
+    ],
+    "match_weight": {
+      "marketer": 1.0,
+      "founder": 0.5
+    },
+    "pros": [
+      "Predictive performance scores actually work",
+      "Great for paid social ad campaigns",
+      "Creates multiple variants instantly"
+    ],
+    "cons": [
+      "Expensive for solo users",
+      "Focuses purely on conversion, not narrative storytelling"
+    ]
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "tagline": "SEO AI Writer",
+    "category": "Writing & Content",
+    "description": "An AI platform aimed squarely at generating SEO-optimized articles, blog posts, and marketing materials to rank on Google.",
+    "logo_emoji": "\ud83d\udcdd",
+    "website_url": "https://writesonic.com/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Marketer",
+      "Writer"
+    ],
+    "use_cases": [
+      "writing",
+      "marketing",
+      "seo"
+    ],
+    "output_types": [
+      "text"
+    ],
+    "tags": [
+      "blogs",
+      "seo",
+      "copywriting"
+    ],
+    "match_weight": {
+      "marketer": 0.9,
+      "writer": 1.0
+    },
+    "pros": [
+      "Built-in Surfer SEO integration",
+      "Scrapes current web info for factually accurate articles",
+      "Very affordable"
+    ],
+    "cons": [
+      "Content can still feel 'AI-generated' if not edited",
+      "Feature bloat makes UI messy"
+    ]
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "tagline": "Your pocket AI writer",
+    "category": "Writing & Content",
+    "description": "A streamlined, highly affordable AI writing assistant perfect for short-form content, emails, and quick blog sections.",
+    "logo_emoji": "\u270d\ufe0f",
+    "website_url": "https://rytr.me/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Writer",
+      "Founder"
+    ],
+    "use_cases": [
+      "writing",
+      "marketing"
+    ],
+    "output_types": [
+      "text"
+    ],
+    "tags": [
+      "writing",
+      "budget",
+      "fast"
+    ],
+    "match_weight": {
+      "writer": 0.8,
+      "founder": 0.8
+    },
+    "pros": [
+      "Incredibly cheap unlimited plan ($9/mo)",
+      "Simple, distraction-free editor",
+      "Fastest way to write an email draft"
+    ],
+    "cons": [
+      "Struggles with long-form complex articles",
+      "Fewer advanced integrations"
+    ]
+  },
+  {
+    "id": "deepl",
+    "name": "DeepL",
+    "tagline": "The world's most accurate translator",
+    "category": "Writing & Content",
+    "description": "Neural machine translation service that outperforms Google Translate by capturing nuance, context, and colloquialisms flawlessly.",
+    "logo_emoji": "\ud83c\udf0d",
+    "website_url": "https://www.deepl.com/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Writer",
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "writing",
+      "research"
+    ],
+    "output_types": [
+      "text"
+    ],
+    "tags": [
+      "translation",
+      "language",
+      "localization"
+    ],
+    "match_weight": {
+      "writer": 0.9,
+      "marketer": 0.8,
+      "founder": 0.7
+    },
+    "pros": [
+      "Astounding translation accuracy",
+      "Supports retaining file formatting (PDF/Docx)",
+      "DeepL Write helps improve native writing"
+    ],
+    "cons": [
+      "Supports fewer languages than Google",
+      "Document translation limits on free tier"
+    ]
+  },
+  {
+    "id": "pi",
+    "name": "Pi / Inflection AI",
+    "tagline": "Your personal AI",
+    "category": "Writing & Content",
+    "description": "An AI designed to be supportive, smart, and emotionally intelligent. It functions less like a tool and more like an empathetic confidant.",
+    "logo_emoji": "\ud83e\udd67",
+    "website_url": "https://pi.ai/",
+    "pricing": "Free",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Student",
+      "Writer"
+    ],
+    "use_cases": [
+      "research",
+      "writing"
+    ],
+    "output_types": [
+      "text",
+      "audio"
+    ],
+    "tags": [
+      "assistant",
+      "chat",
+      "empathy"
+    ],
+    "match_weight": {
+      "writer": 0.6,
+      "founder": 0.5
+    },
+    "pros": [
+      "Incredibly fluid conversational UI",
+      "Voice feature sounds remarkably human",
+      "Actually asks you questions back"
+    ],
+    "cons": [
+      "Refuses to write code or do heavy lifting",
+      "Not meant for professional workflows"
+    ]
+  },
+  {
+    "id": "firefly",
+    "name": "Adobe Firefly",
+    "tagline": "Commercially safe generative AI",
+    "category": "Image & Design",
+    "description": "Adobe's suite of generative models designed strictly to be safe for commercial use, integrated directly into Photoshop and Illustrator.",
+    "logo_emoji": "\ud83e\udd8b",
+    "website_url": "https://firefly.adobe.com/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer",
+      "Marketer"
+    ],
+    "use_cases": [
+      "design",
+      "marketing"
+    ],
+    "output_types": [
+      "image",
+      "design"
+    ],
+    "tags": [
+      "photoshop",
+      "commercial",
+      "vectors"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "marketer": 0.8
+    },
+    "pros": [
+      "Generative Fill in Photoshop is revolutionary",
+      "Trained on Adobe Stock so zero copyright issues",
+      "Can generate vector recoloring"
+    ],
+    "cons": [
+      "Standalone web app is basic",
+      "Generations are heavily sanitized and restricted"
+    ]
+  },
+  {
+    "id": "framer",
+    "name": "Framer AI",
+    "tagline": "Design to website with AI",
+    "category": "Code & Dev",
+    "description": "A website builder that lets you generate full, responsive web layouts using text prompts, with complete design freedom afterwards.",
+    "logo_emoji": "\ud83d\uddbc\ufe0f",
+    "website_url": "https://www.framer.com/ai/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer",
+      "Founder"
+    ],
+    "use_cases": [
+      "design",
+      "coding"
+    ],
+    "output_types": [
+      "code",
+      "design"
+    ],
+    "tags": [
+      "website",
+      "builder",
+      "figma"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "founder": 0.9,
+      "developer": 0.4
+    },
+    "pros": [
+      "Insanely fast way to build landing pages",
+      "Animations and interactivity built-in",
+      "Feels like Figma but deploys to web"
+    ],
+    "cons": [
+      "AI generations can look a bit generic",
+      "Requires learning Framer's box model to edit"
+    ]
+  },
+  {
+    "id": "webflow-ai",
+    "name": "Webflow AI",
+    "tagline": "Supercharge your visual dev",
+    "category": "Code & Dev",
+    "description": "Webflow brings AI to visual web development. Quickly generate structure, rewrite CMS content, and translate pages instantly.",
+    "logo_emoji": "\ud83c\udf0a",
+    "website_url": "https://webflow.com/ai",
+    "pricing": "Paid",
+    "starting_price": "$14/mo",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Designer",
+      "Developer"
+    ],
+    "use_cases": [
+      "design",
+      "coding"
+    ],
+    "output_types": [
+      "code",
+      "text"
+    ],
+    "tags": [
+      "web-design",
+      "cms",
+      "builder"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "developer": 0.8
+    },
+    "pros": [
+      "Most powerful visual builder available",
+      "AI helps map complex 3D DOM structures",
+      "Professional grade CMS"
+    ],
+    "cons": [
+      "Steepest learning curve of any web builder",
+      "Expensive hosting plans"
+    ]
+  },
+  {
+    "id": "dora",
+    "name": "Dora AI",
+    "tagline": "3D web design, generated",
+    "category": "Image & Design",
+    "description": "Dora allows you to generate completely functional 3D animated websites from a single text prompt. Jaw-dropping visual results.",
+    "logo_emoji": "\ud83e\ude90",
+    "website_url": "https://dora.run/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Designer",
+      "Founder"
+    ],
+    "use_cases": [
+      "design",
+      "coding"
+    ],
+    "output_types": [
+      "design",
+      "code",
+      "3d"
+    ],
+    "tags": [
+      "3d",
+      "website",
+      "animation"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "founder": 0.7
+    },
+    "pros": [
+      "Generates 3D models and scroll animations natively",
+      "Results look incredibly premium",
+      "No coding needed for 3D interactions"
+    ],
+    "cons": [
+      "Still in beta so performance can lag",
+      "Sites can be heavy to load"
+    ]
+  },
+  {
+    "id": "spline",
+    "name": "Spline AI",
+    "tagline": "3D design for the web",
+    "category": "Image & Design",
+    "description": "Prompt-to-3D model generator integrated into a powerful browser-based 3D design tool. Export scenes directly to React.",
+    "logo_emoji": "\ud83e\ude84",
+    "website_url": "https://spline.design/ai",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Designer",
+      "Developer"
+    ],
+    "use_cases": [
+      "design",
+      "coding"
+    ],
+    "output_types": [
+      "3d",
+      "code"
+    ],
+    "tags": [
+      "3d",
+      "react",
+      "graphics"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "developer": 0.8
+    },
+    "pros": [
+      "Browser based 3D modeling is very accessible",
+      "AI helps generate baseline objects fast",
+      "React-Three-Fiber export is flawless"
+    ],
+    "cons": [
+      "Generated 3D meshes are often messy",
+      "Requires learning 3D concepts"
+    ]
+  },
+  {
+    "id": "blackbox",
+    "name": "Blackbox AI",
+    "tagline": "The AI tailored for developers",
+    "category": "Code & Dev",
+    "description": "A developer-focused AI tool that helps answer programming questions, scan codebase structures, and turn wireframes into code natively.",
+    "logo_emoji": "\u2b1b",
+    "website_url": "https://www.blackbox.ai/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Developer"
+    ],
+    "use_cases": [
+      "coding",
+      "debugging"
+    ],
+    "output_types": [
+      "code",
+      "text"
+    ],
+    "tags": [
+      "ide",
+      "assistant",
+      "code"
+    ],
+    "match_weight": {
+      "developer": 1.0
+    },
+    "pros": [
+      "Great image-to-code capabilities",
+      "Integrates natively with Github repos",
+      "Real-time chat is snappy"
+    ],
+    "cons": [
+      "Has heavy competition from Cursor/Copilot",
+      "UI is a bit cluttered"
+    ]
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "tagline": "Private AI assistant for developers",
+    "category": "Code & Dev",
+    "description": "An AI code completion tool that focuses heavily on privacy. It learns your team's codebase securely without uploading it to public servers.",
+    "logo_emoji": "\ud83d\udd12",
+    "website_url": "https://www.tabnine.com/",
+    "pricing": "Paid",
+    "starting_price": "$12/mo",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Developer",
+      "Founder"
+    ],
+    "use_cases": [
+      "coding",
+      "automation"
+    ],
+    "output_types": [
+      "code"
+    ],
+    "tags": [
+      "autocomplete",
+      "privacy",
+      "enterprise"
+    ],
+    "match_weight": {
+      "developer": 1.0,
+      "founder": 0.8
+    },
+    "pros": [
+      "Absolute gold standard for enterprise privacy",
+      "Highly accurate autocomplete",
+      "Runs on any IDE"
+    ],
+    "cons": [
+      "Lacks the deep multi-file chat capabilities of competitors",
+      "Enterprise tier required for best features"
+    ]
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "tagline": "Free AI code toolkit",
+    "category": "Code & Dev",
+    "description": "The fastest growing alternative to GitHub Copilot. Codeium provides blazing fast autocomplete, chat, and search\u2014and it is completely free for individuals.",
+    "logo_emoji": "\u26a1",
+    "website_url": "https://codeium.com/",
+    "pricing": "Free",
+    "starting_price": "$0",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Developer",
+      "Student"
+    ],
+    "use_cases": [
+      "coding",
+      "debugging"
+    ],
+    "output_types": [
+      "code"
+    ],
+    "tags": [
+      "copilot",
+      "free",
+      "ide"
+    ],
+    "match_weight": {
+      "developer": 1.0,
+      "founder": 0.6
+    },
+    "pros": [
+      "100% free for individual developers",
+      "Supports 70+ languages and 40+ editors",
+      "Extremely fast generation speed"
+    ],
+    "cons": [
+      "Sometimes hallucinates unfamiliar library APIs",
+      "Self-hosting costs money"
+    ]
+  },
+  {
+    "id": "amazon-q",
+    "name": "Amazon Q",
+    "tagline": "AI tailored for AWS",
+    "category": "Code & Dev",
+    "description": "Amazon's generative AI assistant built exclusively for developers and IT professionals working within the AWS ecosystem.",
+    "logo_emoji": "\u2601\ufe0f",
+    "website_url": "https://aws.amazon.com/q/",
+    "pricing": "Paid",
+    "starting_price": "$20/mo",
+    "skill_level": "Advanced",
+    "best_for_roles": [
+      "Developer"
+    ],
+    "use_cases": [
+      "coding",
+      "automation"
+    ],
+    "output_types": [
+      "code",
+      "data"
+    ],
+    "tags": [
+      "aws",
+      "cloud",
+      "devops"
+    ],
+    "match_weight": {
+      "developer": 1.0
+    },
+    "pros": [
+      "Can automatically upgrade legacy Java apps",
+      "Understands AWS infrastructure natively",
+      "Great security integrations"
+    ],
+    "cons": [
+      "Useless if you don't use AWS",
+      "Very complex enterprise setup"
+    ]
+  },
+  {
+    "id": "replit",
+    "name": "Replit AI",
+    "tagline": "Code on any device",
+    "category": "Code & Dev",
+    "description": "Integrated directly into Replit's cloud-based IDE, allowing you to generate, debug, and deploy full applications from a browser or phone.",
+    "logo_emoji": "\ud83d\ude80",
+    "website_url": "https://replit.com/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Developer",
+      "Student",
+      "Founder"
+    ],
+    "use_cases": [
+      "coding",
+      "deployment"
+    ],
+    "output_types": [
+      "code"
+    ],
+    "tags": [
+      "cloud",
+      "ide",
+      "deployment"
+    ],
+    "match_weight": {
+      "developer": 0.9,
+      "founder": 0.9
+    },
+    "pros": [
+      "No local environment setup required",
+      "Mobile app is surprisingly capable",
+      "Hosts your app instantly"
+    ],
+    "cons": [
+      "Cloud IDE can slow down on large projects",
+      "AI eats through usage credits fast required for hosting"
+    ]
+  },
+  {
+    "id": "uizard",
+    "name": "Uizard",
+    "tagline": "Wireframe to UI in seconds",
+    "category": "Image & Design",
+    "description": "Upload a hand-drawn sketch or simple wireframe, and Uizard transforms it into a fully editable, high-fidelity digital UI layout.",
+    "logo_emoji": "\ud83e\ude84",
+    "website_url": "https://uizard.io/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Founder",
+      "Designer"
+    ],
+    "use_cases": [
+      "design",
+      "marketing"
+    ],
+    "output_types": [
+      "design",
+      "image"
+    ],
+    "tags": [
+      "prototyping",
+      "ui",
+      "wireframes"
+    ],
+    "match_weight": {
+      "founder": 1.0,
+      "designer": 0.8
+    },
+    "pros": [
+      "Massive time saver for initial discovery phases",
+      "Great for non-designers to communicate ideas",
+      "Pre-built templates are solid"
+    ],
+    "cons": [
+      "Cannot export directly to production code cleanly",
+      "UI components feel a bit basic"
+    ]
+  },
+  {
+    "id": "figjam-ai",
+    "name": "FigJam AI",
+    "tagline": "Automate your whiteboard",
+    "category": "Productivity & Automation",
+    "description": "Generate whole meeting templates, summarize giant clusters of sticky notes, and build project timelines instantly within Figma's whiteboard tool.",
+    "logo_emoji": "\ud83d\udd8d\ufe0f",
+    "website_url": "https://www.figma.com/figjam/ai/",
+    "pricing": "Paid",
+    "starting_price": "$5/mo",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Designer",
+      "Product Manager",
+      "Founder"
+    ],
+    "use_cases": [
+      "research",
+      "automation"
+    ],
+    "output_types": [
+      "data",
+      "text"
+    ],
+    "tags": [
+      "whiteboard",
+      "planning",
+      "ux"
+    ],
+    "match_weight": {
+      "designer": 1.0,
+      "founder": 0.9
+    },
+    "pros": [
+      "Summarizing user-research stickies is magic",
+      "Integrated into Figma ecosystem",
+      "Beautiful outputs"
+    ],
+    "cons": [
+      "Only works in FigJam, not Figma design",
+      "AI features are still somewhat limited in scope"
+    ]
+  },
+  {
+    "id": "miro-ai",
+    "name": "Miro Assist",
+    "tagline": "Accelerate visual collaboration",
+    "category": "Productivity & Automation",
+    "description": "Expand on ideas, summarize boards, and generate mind maps automatically in the world's most popular infinite canvas tool.",
+    "logo_emoji": "\ud83d\uddfa\ufe0f",
+    "website_url": "https://miro.com/ai/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Founder",
+      "Marketer",
+      "Designer"
+    ],
+    "use_cases": [
+      "research",
+      "automation"
+    ],
+    "output_types": [
+      "text",
+      "data"
+    ],
+    "tags": [
+      "whiteboard",
+      "mindmap",
+      "collaboration"
+    ],
+    "match_weight": {
+      "founder": 1.0,
+      "marketer": 0.8,
+      "designer": 0.6
+    },
+    "pros": [
+      "Excellent at expanding single topics into mind maps",
+      "Great for agile sprint planning",
+      "Connects to Jira/Asana"
+    ],
+    "cons": [
+      "Canvas can become incredibly messy",
+      "Pricing is steep for enterprise features"
+    ]
+  },
+  {
+    "id": "grammarlygo",
+    "name": "GrammarlyGO",
+    "tagline": "Context-aware AI writing",
+    "category": "Writing & Content",
+    "description": "Brings generative AI directly into your text input fields across the web. It understands the context of what you are replying to.",
+    "logo_emoji": "\ud83d\udd8b\ufe0f",
+    "website_url": "https://www.grammarly.com/ai",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Writer",
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "writing",
+      "marketing"
+    ],
+    "output_types": [
+      "text"
+    ],
+    "tags": [
+      "grammar",
+      "email",
+      "extension"
+    ],
+    "match_weight": {
+      "writer": 1.0,
+      "marketer": 0.9,
+      "founder": 1.0
+    },
+    "pros": [
+      "Follows you around the web smoothly",
+      "Adjusts tone perfectly to suit the audience",
+      "Fixes grammar organically"
+    ],
+    "cons": [
+      "Can be overly aggressive with suggestions",
+      "Injects heavy DOM elements into web pages"
+    ]
+  },
+  {
+    "id": "quillbot",
+    "name": "QuillBot",
+    "tagline": "The best AI paraphrasing tool",
+    "category": "Writing & Content",
+    "description": "The ultimate tool for rewriting and refining content. Plagiarism checker, summarizer, and citation generator built in.",
+    "logo_emoji": "\ud83e\udeb6",
+    "website_url": "https://quillbot.com/",
+    "pricing": "Freemium",
+    "starting_price": "$0",
+    "skill_level": "Beginner",
+    "best_for_roles": [
+      "Student",
+      "Writer",
+      "Marketer"
+    ],
+    "use_cases": [
+      "writing",
+      "research"
+    ],
+    "output_types": [
+      "text"
+    ],
+    "tags": [
+      "paraphrase",
+      "essay",
+      "academic"
+    ],
+    "match_weight": {
+      "writer": 1.0,
+      "marketer": 0.7
+    },
+    "pros": [
+      "Flawlessly bypasses plagiarism checkers",
+      "Very cheap premium plan",
+      "Chrome extension is fantastic"
+    ],
+    "cons": [
+      "Doesn't generate entirely new creative content well",
+      "Free tier has very strict word limits"
+    ]
+  },
+  {
+    "id": "heygen",
+    "name": "HeyGen",
+    "tagline": "Studio quality AI avatars",
+    "category": "Video & Audio",
+    "description": "Create engaging video content using hyper-realistic AI avatars. Features instant translation and seamless lip-syncing.",
+    "logo_emoji": "\ud83d\udc4b",
+    "website_url": "https://www.heygen.com/",
+    "pricing": "Paid",
+    "starting_price": "$29/mo",
+    "skill_level": "Intermediate",
+    "best_for_roles": [
+      "Marketer",
+      "Founder"
+    ],
+    "use_cases": [
+      "marketing",
+      "content creation"
+    ],
+    "output_types": [
+      "video",
+      "audio"
+    ],
+    "tags": [
+      "avatars",
+      "spokesperson",
+      "marketing"
+    ],
+    "match_weight": {
+      "marketer": 1.0,
+      "founder": 0.8
+    },
+    "pros": [
+      "The best 1-minute video translation tool on the market",
+      "Studio avatar creation looks incredible",
+      "Can clone your own face/voice perfectly"
+    ],
+    "cons": [
+      "Credit system is expensive",
+      "Rendering times can be slow during peak hours"
+    ]
+  }
+]
