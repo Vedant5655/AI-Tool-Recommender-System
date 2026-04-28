@@ -1,0 +1,35 @@
+:root {
+  /* PRD 9.2 Colour Tokens */
+  --color-bg: #071428;
+  --color-surface: rgba(255, 255, 255, 0.08);
+  --color-surface-hover: rgba(255, 255, 255, 0.14);
+  --color-border: rgba(255, 255, 255, 0.14);
+  --color-border-glow: rgba(56, 189, 248, 0.18);
+  --color-text-primary: rgba(248, 251, 255, 0.94);
+  --color-text-muted: rgba(248, 251, 255, 0.64);
+
+  /* Accents */
+  --color-accent-violet: #7c3aed;
+  --color-accent-cyan: #38bdf8;
+  --color-accent-pink: #fb7185;
+  --color-accent-emerald: #34d399;
+  --color-accent-amber: #facc15;
+  --color-accent-red: #f87171;
+  --color-accent-purple: #a78bfa;
+
+  /* PRD 9.8 Badge Colors */
+  --badge-writing: #6c2bd9;
+  --badge-design: #ec4899;
+  --badge-code: #0ea5e9;
+  --badge-data: #10b981;
+  --badge-productivity: #f59e0b;
+  --badge-video: #ef4444;
+  --badge-research: #8b5cf6;
+  --badge-marketing: #06b6d4;
+  --badge-support: #84cc16;
+  --badge-finance: #64748b;
+
+  /* Typography */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
